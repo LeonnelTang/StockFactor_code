@@ -1,0 +1,11 @@
+,fitness,expression,depth,length
+alpha_1,0.14429788106801633,"mul(delta(mul(low, low)), rsrs)",3,6
+alpha_2,0.12659041948910651,"mul(delta(mul(low, low)), sub(mul(money, atr), signedpower(rsrs)))",3,11
+alpha_3,0.12369326477122379,"delta(delta(mul(ts_min(atr), delta(scale(mul(covariance(high, emaDiff), log(volume)))))))",7,13
+alpha_4,0.10933484140825381,"delta(signedpower(mul(delta(mul(low, low)), log(ts_max(-0.584)))))",5,10
+alpha_5,0.10544660789323536,"delta(delta(mul(ts_min(atr), sqrt(macd))))",4,7
+alpha_7,0.09529688831546454,"mul(covariance(high, emaDiff), covariance(volume, signedpower(delta(high))))",4,9
+alpha_6,0.09346075020155589,"delta(scale(mul(covariance(high, emaDiff), covariance(volume, signedpower(rank(rsrs))))))",6,11
+alpha_8,0.08852905511707193,"sub(add(sub(rsrs, log(atr)), low), close)",4,8
+alpha_9,0.08836630104171395,"delta(delta(mul(covariance(macd, close), sqrt(macd))))",4,8
+alpha_10,0.08630978087974438,"mul(mul(ts_argmin(ts_max(atr)), rank(ts_min(_open))), delta(close))",4,10
