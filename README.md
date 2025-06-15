@@ -1,10 +1,11 @@
-# StockFactor\_code
+<img width="1144" alt="因子收益率分析" src="https://github.com/user-attachments/assets/b3efc9d8-04f9-4b8e-99b6-e5c233c11675" /># StockFactor\_code
 
 基于证券交易大数据的 AI 模型选股因子多路径挖掘探索项目代码库。该项目综合运用遗传规划（GP）、随机森林、以及大语言模型（LLM）等多种路径，自动化挖掘出具有预测价值的量化选股因子，辅助构建多因子策略组合并实现实盘级别的因子验证与回测。
 
 ## 📌 项目亮点
 
 * 🧠 多路径因子挖掘：整合 GP、LLM 等方法，提升因子多样性与预测能力
+  ![多路径](https://github.com/user-attachments/assets/33eb013f-cbf1-4fde-87d9-984b6b9f1666)
 * 🧮 自定义函数集拓展 gplearn，用于表达复杂的非线性量价关系
 * 🤖 使用 GPT/Kimi 大模型生成因子表达式，探索 NLP 在金融因子构建的应用
 * 📊 支持完整因子回测分析：IC、IR、收益率、行业分布、换手率
@@ -88,8 +89,12 @@ Alpha1 = mul(div(log(abs(total_turnover_Lag1)), SIGN(volume_Lag20)),
 ## 📊 示例可视化
 
 * IC 时间序列图
+  ![IC变化图1](images/因子IC分析.png)
+  ![IC变化图2](images/因子IC分析2.png)
 * 多空组合收益曲线
+  ![因子分组收益率](images/因子收益率分析.png)
 * 因子暴露热力图
+  ![因子热力](https://github.com/user-attachments/assets/2e90b30f-ecfe-4ea3-b2dc-f04ac3e19693)
 
 
 
@@ -122,9 +127,12 @@ heatmap_0.0001_HS300.png
 5.请给出构建的详细步骤和计算方法
 
 #### ii. GPT生成回答示例：
+![GPT因子图1](images/gpt1.png)
+![GPT因子图2](images/gpt2.png)
 
 ### 构建多因子策略并回测验证
 利用已挖掘出的有效因子，构建基于多因子的交易策略，并进行回测验证，以评估策略在不同市场环境中的表现。回测后，将经过验证的策略转入量化交易系统进行实时模拟交易。
+<img width="1084" alt="策略回测" src="https://github.com/user-attachments/assets/1a6eaa4d-941e-4615-9969-cfe34b295dd0" />
 
 
 
