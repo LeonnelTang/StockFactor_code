@@ -5,7 +5,6 @@
 ## 📌 项目亮点
 
 * 🧠 多路径因子挖掘：整合 GP、LLM 等方法，提升因子多样性与预测能力
-  ![多路径](https://github.com/user-attachments/assets/33eb013f-cbf1-4fde-87d9-984b6b9f1666)
 * 🧮 自定义函数集拓展 gplearn，用于表达复杂的非线性量价关系
 * 🤖 使用 GPT/Kimi 大模型生成因子表达式，探索 NLP 在金融因子构建的应用
 * 📊 支持完整因子回测分析：IC、IR、收益率、行业分布、换手率
