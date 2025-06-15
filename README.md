@@ -153,8 +153,7 @@ Step A —— **异常换手 (Abnormal Turnover, $AT_t$)**
 衡量“**广度**”。
 
 $$
-\text{Turnover}_t=\frac{V_t}{FF_t},\qquad  
-AT_t=\frac{\text{Turnover}_t-\text{Median}_{252}}{\text{MAD}_{252}}
+\text{Turnover}_t=\frac{V_t}{FF_t},\qquad  AT_t=\frac{\text{Turnover}_t-\text{Median}_{252}}{\text{MAD}_{252}}
 $$
 
 *对过去252交易日做**中位数-MAD**标准化并对 $\pm3\sigma$ winsorize*。
