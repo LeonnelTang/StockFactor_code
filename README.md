@@ -1,4 +1,4 @@
-<img width="1144" alt="因子收益率分析" src="https://github.com/user-attachments/assets/b3efc9d8-04f9-4b8e-99b6-e5c233c11675" /># StockFactor\_code
+
 
 基于证券交易大数据的 AI 模型选股因子多路径挖掘探索项目代码库。该项目综合运用遗传规划（GP）、随机森林、以及大语言模型（LLM）等多种路径，自动化挖掘出具有预测价值的量化选股因子，辅助构建多因子策略组合并实现实盘级别的因子验证与回测。
 
