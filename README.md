@@ -85,7 +85,7 @@ Alpha1 = mul(div(log(abs(total_turnover_Lag1)), SIGN(volume_Lag20)),
 
 ---
 
-## 📊 示例可视化
+## 示例可视化
 
 * IC 时间序列图
   ![IC变化图1](images/因子IC分析.png)
